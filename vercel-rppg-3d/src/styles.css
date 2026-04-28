@@ -1,5 +1,0 @@
-:root{--fg:#eaf7f2;--bg:#061018;--p:#8be77c}*{box-sizing:border-box}body{margin:0;min-height:100vh;color:var(--fg);font-family:Segoe UI,Tahoma,sans-serif;background:radial-gradient(900px 500px at 10% 10%,#173652 0%,transparent 60%),linear-gradient(135deg,#08131d,#123127);display:grid;grid-template-columns:340px 1fr;gap:12px;padding:12px}
-.left,#scene{border:1px solid rgba(255,255,255,.15);border-radius:12px;background:rgba(6,10,16,.72);padding:12px}
-button{border:0;border-radius:10px;padding:10px 12px;background:var(--p);font-weight:700;cursor:pointer}
-video,#o{width:100%;display:block;border-radius:10px;margin-top:8px;border:1px solid rgba(255,255,255,.18)}#scene{min-height:70vh}
-@media(max-width:900px){body{grid-template-columns:1fr}#scene{min-height:55vh}}
